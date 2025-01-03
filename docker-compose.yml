@@ -17,7 +17,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/app
+      - .:/rails
     environment:
       DATABASE_HOST: db
       DATABASE_USER: postgres
