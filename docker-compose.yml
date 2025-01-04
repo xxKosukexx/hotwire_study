@@ -25,6 +25,7 @@ services:
       RAILS_ENV: development
     depends_on:
       - db
+    command: bin/dev
 
 volumes:
   db_data:
